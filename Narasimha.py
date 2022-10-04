@@ -4,8 +4,8 @@ import json
 
 records = []
 
-# total pages - 5
-for page_count in range(1,6):
+# total pages - 3
+for page_count in range(1,4):
     response = urlopen(f"https://jsonmock.hackerrank.com/api/article_users?page={page_count}")
     response = json.load(response)
     print(response)
