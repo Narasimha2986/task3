@@ -1,2 +1,0 @@
-# Networking-Team
-Terralogic(Nellore)
