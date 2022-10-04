@@ -17,4 +17,4 @@ print("TOP TWO TITLES WITH MOST NUMBER OF COMMENTS")
 
 for rec in sorted_records[0:2]:
     print(rec)
-    print("#Top two titles based on most number of comments:-"+rec[""username""] + "-" +  str(rec["submission_count"]))
+    print("#Top two usernames based on submission_count:-"+rec[""username""] + "-" +  str(rec["submission_count"]))
